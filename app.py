@@ -25,8 +25,8 @@ st.write("---")
 st.write("### 📜 Cláusulas del Contrato de Aventuras")
 st.write("1. **Ley Anti-Aburrimiento:** Queda estrictamente prohibido tener un fin de semana normal. Si el sistema detecta rutina, se activará un plan de emergencia automático.")
 st.write("2. **Salida de Zona de Confort:** La beneficiaria (Sharon) acepta que el suscriptor (Alexander) haga locuras que juró nunca hacer, siempre que sea para verla sonreír.")
-3. **Cláusula de Exclusividad:** Este contrato es único e intransferible. Sharon no es una usuaria pasajera; es la administradora de todo el sistema.")
-st.write("4. **Misterio Obligatorio:** Los planes se revelarán solo 24 horas antes de su ejecución para mantener el hype.")
+st.write("3. **Cláusula de Exclusividad:** Este contrato es único e intransferible. Sharon no es una usuaria pasajera; es la administradora de todo el sistema.")
+st.write("4. **Misterio Obligatorio:** Los planes se revelarán solo cuando el sistema lo considere necesario para mantener la sorpresa.")
 
 # Botones de Interacción
 if st.button("✅ ACEPTO EL CONTRATO Y EL RIESGO"):
@@ -36,8 +36,4 @@ if st.button("✅ ACEPTO EL CONTRATO Y EL RIESGO"):
     st.info("Nota: Al aceptar, has desbloqueado una versión de Alexander que hace hasta lo imposible por sorprenderte. No hay vuelta atrás.")
 
 if st.button("❌ CANCELAR (OPCIÓN NO RECOMENDADA)"):
-    st.error("ERROR CRÍTICO: El botón de cancelar ha sido bloqueado por exceso de momentos increíbles por vivir. Intenta aceptar.")
-
-# Footer estilo código
-st.markdown("<br><br>", unsafe_allow_html=True)
-st.code("while(sharon_happy): \n    alexander.continue_surprising()", language="python")
+    st.error
